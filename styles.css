@@ -1,0 +1,139 @@
+.section-1 {
+  padding-top: 25px;
+  position: relative;
+  height: 590px;
+}
+.bg-container.overlay::before {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  content: "";
+  background-color: rgba(26, 30, 44, 0.4);
+}
+.fifa-navbar {
+  height: 80px;
+  opacity: 0.75;
+}
+.brand {
+  box-shadow: 5px 5px 7px #d3d3d3;
+}
+.redes {
+  text-decoration: none;
+  margin: 15px;
+  cursor: pointer;
+}
+.redes img {
+  width: 40px;
+}
+input {
+  width: 150px !important;
+}
+.btn-icon {
+  padding: 2px !important;
+}
+.navbar-toggler{
+  font-size: 2.05rem !important;
+}
+.dropdown-toggle::after {
+  display: inline-block;
+  margin-left: 0.255em;
+  vertical-align: 0.255em;
+  content: none !important;
+  border-top: 0.3em solid;
+  border-right: 0.3em solid transparent;
+  border-bottom: 0;
+  border-left: 0.3em solid transparent;
+}
+.bg-container {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  overflow: hidden;
+  margin: 0;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  backface-visibility: hidden;
+}
+.first-sec h1 {
+  font-size: 6.4rem !important;
+  letter-spacing: 2px;
+  padding-top: 110px;
+}
+#section-2 {
+  background: linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f54a4a);
+  height: 580px;
+}
+.badge {
+  border: 3px ridge #d9d9d9;
+}
+.pills a {
+  font-size: 20px !important;
+  transition: font-size 0.7s ease-in;
+}
+.pills a:hover {
+  font-size: 25px !important;
+  color: rgba(23, 23, 26, 0.877) !important;
+}
+.section-3 {
+  padding: 64px 0;
+  height: 350px;
+}
+.card {
+  max-width: 40rem;
+  max-height: 49rem;
+}
+.card img {
+  width: 338px;
+  height: 190px;
+}
+.flag img {
+  width: 50px;
+  height: 28px;
+}
+.opacity-1 {
+  opacity: 0.2;
+}
+
+.opacity-1-hover {
+  transition: opacity 0.35s ease;
+}
+.opacity-1-hover:hover {
+  opacity: 0.2;
+  text-decoration: none;
+}
+.section-5 {
+  background: linear-gradient(0.25turn, #f54a4a, #ebf8e1, #3f87a6);
+  height: 450px;
+}
+footer {
+  height: 300px;
+}
+footer img {
+  width: 25px;
+}
+iframe{
+  width: 500px;
+  height: 300px;
+}
+.sponsor {
+  height: 225px;
+}
+.sponsor img {
+  width: 150px;
+}
+@media (min-width: 500px) and (max-width: 1200px) {
+  #section-2 {
+    height: 750px;
+  }
+}
+@media (min-width: 500px) and (max-width: 768) {
+  iframe{
+    width: 450px !important;
+    height: 280px !important;
+  }
+}
